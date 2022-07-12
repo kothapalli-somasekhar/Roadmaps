@@ -1,0 +1,140 @@
+{
+  "Prerequisites": {
+    "type": "list",
+    "items": {
+      "Node JS": "string",
+      "Javascript": "string",
+      "NPM (Node Package Manager)": "string",
+      "Typescript": "string",
+      "HTTP Server frameworks": {
+        "type": "list",
+        "items": {
+          "Express": "string",
+          "Fastitfy": "string"
+        }
+      }
+    }
+  },
+  "Setup": {
+    "type": "list",
+    "items": {
+      "Nest CLI": {
+        "type": "list",
+        "items": {
+          "new": "string",
+          "generate": {
+            "type": "list",
+            "items": {
+              "nest generate": "string",
+              "nest build": "string",
+              "nest serve": "string",
+              "nest test": "string",
+              "nest e2e": "string",
+              "nest docs": "string",
+              "nest add": "string",
+              "nest remove": "string",
+              "nest update": "string",
+              "nest info": "string",
+              "nest help": "string"
+            }
+          },
+          "build": "string",
+          "start": "string",
+          "add": "string",
+          "update": "string",
+          "info": "string"
+        }
+      },
+      "npm": "string"
+    }
+  },
+  "Features": {
+    "type": "list",
+    "items": {
+      "Extensible Approach": "string",
+      "Easy to use, learn and master": "string",
+      "Command Line Interface(CLI)": "string",
+      "Versatile": {
+        "type": "list",
+        "items": {
+          "Standalone Server side Application": "string",
+          "Microservices": "string",
+          "Serverless": "string",
+          "Library": "string",
+          "Rest API’s": "string",
+          "MVC applications": "string",
+          "GraphQL applications": "string",
+          "Web Sockets Application": "string",
+          "nest update": "string",
+          "nest info": "string",
+          "nest help": "string"
+        }
+      },
+      "Progressive": {
+        "type": "list",
+        "items": {
+          "Takes advantage of latest JavaScript features": "string",
+          "Bringing design patterns and mature solutions to Node.js world": "string"
+        }
+      },
+      "Implemented Based on SOLID Principles": "string",
+      "Lazy and Dynamic Modules": "string",
+      "API Versioning": "string",
+      "Documentation": "string",
+      "Open Source": "string",
+      "Large & Active Community": "string"
+    }
+  },
+  "Core": {
+    "type": "list",
+    "items": {
+      "Controllers": {
+        "type": "list",
+        "items": {
+          "Routing": "string",
+          "Request object": "string",
+          "Response Object": "string",
+          "Resources": "string",
+          "Route wildcards": "string",
+          "Status code": "string",
+          "Headers": "string",
+          "Redirection": "string",
+          "Route parameters": "string",
+          "Sub-Domain Routing": "string",
+          "Asynchronicity": "string",
+          "Request payloads": "string",
+          "Handling errors": "string"
+        }
+      },
+      "Progressive": {
+        "type": "list",
+        "items": {
+          "Takes advantage of latest JavaScript features": "string",
+          "Bringing design patterns and mature solutions to Node.js world": "string"
+        }
+      },
+      "Providers": "string",
+      "Modules": "string",
+      "Middleware": "string",
+      "Exception filters/ Error Handling": "string",
+      "Pipes": "string",
+      "Guards": "string",
+      "Interceptors": "string",
+      "Lifecycle Events": "string",
+      "Testing": "string"
+    }
+  },
+  "Practical Approach Guide": {
+    "type": "list",
+    "items": {
+      "Creating a REST API application": "string",
+      "Add PostgreSQL with Type ORM": "string",
+      "Dependency Injection": "string",
+      "Application Configuration": "string",
+      "Other Building Blocks by Example": "string",
+      "Generating Open API Specification": "string",
+      "Testing": "string",
+      "Add MongoDB with Mongoose": "string"
+    }
+  }
+}
